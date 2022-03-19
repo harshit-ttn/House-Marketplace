@@ -4,7 +4,6 @@ import { ReactComponent as ArrowRightIcon } from '../assets/svg/keyboardArrowRig
 import visibilityIcon from '../assets/svg/visibilityIcon.svg'
 import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth"
 import {db} from '../firebase.config'
-import { async } from '@firebase/util'
 import {setDoc,doc,serverTimestamp} from 'firebase/firestore'
 import {toast} from 'react-toastify'
 import OAuth from '../components/OAuth'

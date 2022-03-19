@@ -6,7 +6,6 @@ import Spinner from './Spinner'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper-bundle.css'
-import { async } from '@firebase/util'
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay])
 
 function Slider() {
